@@ -1,0 +1,83 @@
+.botao-group {
+    display: flex;
+}
+
+.botao-group :nth-child(1) {
+    margin-right: 10px;
+}
+
+.botao-large {
+    background-color: var(--dark-grey);
+    color: var(--neon-green);
+    height: 30px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-large a {
+    text-decoration: none;
+    color: var(--neon-green);
+    margin-left: 10px;
+}
+
+.botao-large button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    background-color: var(--dark-grey);
+    text-decoration: none;
+    color: var(--neon-green);
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: separate; /* Necessário para o border-radius funcionar */
+    border-spacing: 0; /* Remove os espaços entre células */
+    width: 100%;
+    border-radius: 10px; /* Bordas arredondadas */
+    overflow: hidden;
+    margin-top: 20px;
+    width: 100%;
+}
+
+thead tr {
+    height: 60px;
+    background-color: var(--neon-green);
+    color: var(--dark-grey);
+}
+
+th {
+    padding: 10px;
+    text-align: center; 
+    vertical-align: middle; 
+}
+
+tbody tr {
+    background-color: var(--dark-grey);
+    color: white;
+}
+
+td {
+    padding: 10px;
+    text-align: center; 
+    vertical-align: middle; 
+    font-size: 15px;
+}
+
+td a {
+    cursor: pointer;
+}
+
+.botao-excluir {
+    background-color: var(--dark-grey);
+    border: none;
+    cursor: pointer;
+}

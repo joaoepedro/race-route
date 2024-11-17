@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --neon-green: #A7F700;
+    --dark-grey: #212121;
+    --light-grey: #424242;
+    --red: #ac0909;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-grey);
+}
+
+.sidebar {
+    height: 100vh;
+    width: 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--dark-grey);
+
+}
+
+.sidebar a img {
+    width: 100%;
+    padding: 0;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    cursor: pointer;
+}
+
+.sidebar a:hover {
+    background-color: var(--neon-green);
+    color: var(--dark-grey);
+}
+
+.sidebar a:nth-child(2) {
+    margin-top: 20px;
+}
+
+.nav {
+    margin-left: 240px;
+    height: 63px;
+    background-color: var(--neon-green);
+}
+
+.botao-logout {
+    background-color: var(--dark-grey);
+    color: var(--neon-green);
+    height: 30px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 6px 30px;
+}
+
+.botao-logout a {
+    text-decoration: none;
+    color: var(--neon-green);
+    margin-left: 10px;
+}
+
+.content {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+.indicadores {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15.7rem, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.titulo-indicadores {
+    margin: 10px 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.indicador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--dark-grey);
+    width: 250px;
+    height: 200px;
+    color: white;
+    border-radius: 25px;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+.titulo-indicador {
+    font-size: 20px;
+}
+
+.indicador-quantidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.indicador p {
+    font-size: 15px;
+    margin: 10px;
+}
+
+.indicador-grupo-infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 90%;
+}
+
+.form-group input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 15px;
+    border: none;
+}
+
+#aviso-referencia {
+    color: var(--red);
+    margin-bottom: 10px;
+}
+
+.bg-neon-green {
+    background-color: var(--neon-green);
+}

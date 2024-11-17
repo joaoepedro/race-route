@@ -1,0 +1,9 @@
+# Ignorar o diretório de dependências do Composer
+vendor/
+
+# Ignorar arquivos do Composer
+composer.lock
+
+# Ignorar configurações do sistema operacional
+.DS_Store
+Thumbs.db

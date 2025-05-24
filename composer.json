@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "RaceRoute\\Mvc\\": "src/"
+    }
+  },
+  "require": {
+    "twilio/sdk": "^8.5",
+    "dompdf/dompdf": "^3.1"
+  }
+}
